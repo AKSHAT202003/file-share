@@ -1,0 +1,14 @@
+# Handle line endings
+* text=auto
+
+# Ensure specific files use LF
+*.sh text eol=lf
+*.md text eol=lf
+
+# Ensure specific files use CRLF
+*.bat text eol=crlf
+
+# Binary files should not be changed
+*.png binary
+*.jpg binary
+*.pdf binary
